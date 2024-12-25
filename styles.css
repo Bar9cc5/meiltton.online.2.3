@@ -1,0 +1,214 @@
+body {
+    background-color: black;
+    padding: 0;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    font-size: 17px;
+    line-height: 1.2;
+    min-width: 320px;
+    overflow-x: hidden;
+    height: auto;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar {
+    background-color: rgb(27, 27, 27);
+    width: 100%;
+    height: 70px;
+}
+
+.navbar .container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-menu {
+    color: #fff;
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.navbar-menu li {
+    display: inline-block;
+}
+
+.navbar-menu li a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    transition: all .09s ease-in-out;
+}
+
+.navbar-menu li a:hover {
+    color: rgba(0, 238, 255, 0.8);
+}
+
+.navbar-wrap {
+    display: flex;
+    flex-flow: now nowrap;
+}
+
+.navbar-brand {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px 10px;
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgba(0, 238, 255, 0.8);
+    transition: all .2s ease-in-out;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.img-tg {
+    float: right;
+}
+
+.img-reg {
+    float: right
+}
+
+.img-vk {
+    float: right;
+}
+
+.lenta-news p {
+    margin-left: 15px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 38px;
+    line-height: 1.5;
+    transition: all .2s ease-in-out;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.register a {
+    margin-left: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(0, 238, 255, 0.8);
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 30px;
+    transition: all .2s ease-in-out;
+    box-shadow: inset 0px 9px 9px rgb(195, 0, 255 .2);
+}
+
+.register a:hover {
+    background-color: rgba(0, 238, 255, 1);
+    box-shadow: inset 0px 18px 18px rgb(195, 0, 255 .4);
+    transform: scale(1.04);
+}
+.lenta-main h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lenta-main h1 span {
+    color:  rgba(0, 238, 255, 0.8);
+}
+
+.two1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FFF;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.two1 span {
+    font-weight: 600;
+    font-size: 35px;
+    color: rgba(0, 238, 255, 0.8);
+}
+
+.two2 {
+    width: 600px;
+    font-size: 20px;
+    text-align: left;
+    margin: 30px 0px;
+    background-color: #272727;
+    padding: 10px;
+    border-radius: 15px;
+    padding: 8px;
+    color: #FFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.two2 span {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0, 238, 255, 0.8);
+}
+
+.lenta-main1 {
+    padding: 15px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 30px;
+}
+
+
+
+
+.lenta-main h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lenta-main2 h1 span {
+    color:  rgb(255, 153, 0);
+}
+
+.two3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FFF;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.two3 span {
+    font-weight: 600;
+    font-size: 35px;
+    color: rgb(255, 153, 0);
+}
+
+.two4 {
+    width: 600px;
+    font-size: 20px;
+    text-align: left;
+    margin: 30px 0px;
+    background-color: #272727;
+    padding: 10px;
+    border-radius: 15px;
+    padding: 8px;
+    color: #FFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.two4 span {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(255, 153, 0);
+}
+
+.lenta-main2 {
+    padding: 15px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 30px;
+}

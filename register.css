@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(26, 26, 26);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box,
+.register-box {
+    background: rgb(27, 27, 27);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgba(0, 238, 255, 1);
+}
+
+.textbox {
+    margin-bottom: 20px;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+.textbox input:focus {
+    outline: none;
+    background-color: #e6e6e6;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 238, 255, 0.8);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(0, 238, 255, 1);
+}
+
+.register-text,
+.login-text {
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+}
+
+.login-text a {
+    color: rgba(0, 238, 255, 0.8);
+    text-decoration: none;
+}
